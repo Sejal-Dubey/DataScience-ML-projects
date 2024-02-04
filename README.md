@@ -28,7 +28,29 @@ The following steps has been taken inside the project:
 
 >> Vader(Sentiment analyzer)-for giving polarity scores(positive,negative,neutral,compound).
 
-# >Step2:Performed statistical analysis such as plotting Pivot Chart,Pivot Table and creating Dashboard for analysis using MyToolBelt.
+# >Step2:Performed statistical analysis.
+
+>>In this excel ,10 sheets are made each displaying necessary observations:
+
+>>downloaded_dataset: the original dataset
+
+>>new_dataset: the new dataset created using NLP has 4 extra columns named pos,neg,neu,compund with their respective sentiment score.
+
+>>review_title: plotting of Pivot Chart of review_text vs average of pos,neg,neu,compound
+
+>>Sheet3:plotting of average of review_rating vs product_name
+
+>>compound: Pivot Chart of average of compound score vs product_name
+
+>>pos: Pivot Chart of average of pos(positive) score vs product_name
+
+>>neg: Pivot Chart of average of neg(negative) score vs product_name
+
+>>neu: Pivot Chart of average of neu(neutral) score vs product_name
+
+>>average of review_rating: Pivot chart average of review_rating vs unique_id(of customer) based on the product_name(as filter).
+
+>>Dashboard: Overall analysis in the form of dashboard including filters like date,review_rating and overall analysis of review_title and observing average_rating vs product_name using filter of product_name.
 
 
 
