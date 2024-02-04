@@ -29,8 +29,13 @@ The following steps has been taken inside the project:
 >> Vader(Sentiment analyzer)-for giving polarity scores(positive,negative,neutral,compound).
 
 # >Step2:Performed statistical analysis.
+The dataset has 11 columns and 6824 rows.
 
->>In this excel ,10 sheets are made each displaying necessary observations:
+Columns:url,product_name,reviewer_name,review_title,review_text,review_rating,verified_purchase,review_date,helpful_count,uniq_id,scraped_at
+
+
+
+>>In the uploaded excel ,10 sheets are made each displaying necessary observations:
 
 >>i.downloaded_dataset: the original dataset
 
