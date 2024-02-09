@@ -8,13 +8,13 @@ where we have performed statistical analysis of Steel Industry Energy Consumptio
 >This dataset contains information on the Electrical Energy
 consumption by a Steel Industry Plant of Korea 
 
-Time Duration : 1 Year
+-Time Duration : 1 Year
 
-Time Interval: 15 mins
+-Time Interval: 15 mins
 
-Number of Records : 35041
+-Number of Records : 35041
 
-Number of Variables : 11
+-Number of Variables : 11
 
 >We performed descriptive statistics on following variables-Usage _kwh,Lagging _Current_Reactive _Power _kVArh,Leading _Current_Reactive _Power _kVArh,CO2,Lagging _Current _Power_,Factor,Leading _Current _Power_
 Factor.
@@ -25,7 +25,7 @@ Factor.
 
 >Through correlation heatmap it was concluded that lagging_current_reactive_power was highly correlated with useage_kwh so we used it as x in the linear regrssion equation and predicted the related useage_current and we got R^2 as 0.8031.
 
-#Inferences from this analysis-
+# Inferences from this analysis-
  -This dataset has a Positively Skewed Data. Hence 3 σ rule cannot be used to remove outliers.
 
 -Homoscedasticity can be achieved to some extent for data of Usage and Lagging Current Reactive Power.
