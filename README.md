@@ -2,8 +2,42 @@
 # 1.# Statistics for Data Science
 
 # a.Steel Industry Energy Consumption
-In this group project,an analysis of energy consumption has been done in excel using basic statistics and python for random sampling.
-The related dataset(both original and random sampling)in .xlsx format has been uploaded in the zip file along with detailed poster and presentation.
+In this group project,we have used this dataset from kaggle- https://www.kaggle.com/datasets/csafrit2/steel-industry-energy-consumption,
+where we have performed statistical analysis of Steel Industry Energy Consumption.
+
+>This dataset contains information on the Electrical Energy
+consumption by a Steel Industry Plant of Korea 
+
+Time Duration : 1 Year
+
+Time Interval: 15 mins
+
+Number of Records : 35041
+
+Number of Variables : 11
+
+>We performed descriptive statistics on following variables-Usage _kwh,Lagging _Current_Reactive _Power _kVArh,Leading _Current_Reactive _Power _kVArh,CO2,Lagging _Current _Power_,Factor,Leading _Current _Power_
+Factor.
+
+>We plotted density plot,histogram,box plot,scatter plot,violin plot and correlation heatmap,for data visualization.
+
+>We applied sampling technique using Simple Random Sampling and concluded that sample is a part of population.
+
+>Through correlation heatmap it was concluded that lagging_current_reactive_power was highly correlated with useage_kwh so we used it as x in the linear regrssion equation and predicted the related useage_current and we got R^2 as 0.8031.
+
+#Inferences from this analysis-
+ -This dataset has a Positively Skewed Data. Hence 3 σ rule cannot be used to remove outliers.
+
+-Homoscedasticity can be achieved to some extent for data of Usage and Lagging Current Reactive Power.
+
+-Linear Regression is applicable to predict the Amount of Energy consumed keeping Lagging Current Reactive Power as Input.
+
+ -Also, we predict amount CO2 from the Usage by doing a Linear Regression.
+
+ -The Density Plots shows that random sampling can represent the population data.
+
+
+
 
 # 2.# STAIML(Software tools for AIML)
 
